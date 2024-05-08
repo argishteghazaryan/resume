@@ -1,44 +1,71 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-}
-
-header, section, footer {
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-size: 24px;
-    color: navy;
-}
-
-h2 {
-    font-size: 20px;
-    color: darkred;
-}
-
-h3 {
-    font-size: 18px;
-    color: darkblue;
-}
-
-p, li {
-    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
     color: #333;
 }
 
-.contact p {
-    font-size: 14px;
-    font-style: italic;
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.profile, .experience, .education {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+header h1 {
+    font-size: 2.5em;
+    color: navy;
+}
+
+header h2 {
+    font-size: 2em;
+    color: darkred;
+    margin-bottom: 0.5em;
+}
+
+.info p {
+    font-style: italic;
+    color: #555;
+}
+
+section {
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: darkblue;
+    margin-bottom: 0.5em;
+}
+
+.job h4 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.years {
+    font-weight: bold;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #666;
 }
 
 footer {
     text-align: center;
-    padding-top: 10px;
+    padding: 20px 0;
+    font-size: 1.2em;
+    color: navy;
     font-weight: bold;
 }
